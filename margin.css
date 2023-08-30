@@ -1,0 +1,55 @@
+.one{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    margin-bottom:50px ;
+}
+.two{
+    width: 100%;
+    height: 100px; ;
+    background-color:blue ;
+    margin-top: 70px;
+    /* the largest margins wins */
+    margin-bottom:70px ;
+}
+.three{
+    width:100% ;
+    height: 100px; ;
+    background-color: yellow;
+    margin-top: -50px ;
+    margin-bottom:90px ;
+}
+.four{
+    width:100% ;
+    height: 100px; ;
+    background-color: purple;
+    margin-top:90px ;
+    margin-bottom: 30px;
+}
+.parent{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.childone{
+width:80%;
+height:100px ;
+background-color: aqua ;
+margin-bottom: 20px;
+margin-top: 70px; 
+/* the child margin will be overridden by the parent margin */
+}
+.childtwo{
+width: 80%;
+height:100px ;
+background-color: rgb(255, 0, 157);
+margin-bottom: -60px;
+
+}
+.childthree{
+width: 80%;
+height: 100px;
+background-color: greenyellow;
+margin-top: -30px;
+/* if both margins are negative the same rule holds as if both were positive. */
+}
